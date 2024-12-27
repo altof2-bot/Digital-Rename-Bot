@@ -1,10 +1,10 @@
 # (c) @RknDeveloperr
 # Rkn Developer 
 # Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Botz
-# Developer @RknDeveloperr
-# Special Thanks To @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+# Telegram Channel @UNIVERSELANIME & @fr_anime_tv
+# Developer @UNIVERSELANIME
+# Special Thanks To @UNIVERSELANIME
+# Update Channel @fr_anime_tv & @fr_anime_tv
 """
 Apache License 2.0
 Copyright (c) 2022 @Digital_Botz
@@ -34,9 +34,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("24777493", "")
+    API_HASH = os.environ.get("bf5a6381d07f045af4faeb46d7de36e5", "")
+    BOT_TOKEN = os.environ.get("7975449308:AAFBQ0wePUijmt0bHB6dJe2T_YU-E2GeAnY", "") 
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
@@ -46,18 +46,18 @@ class Config(object):
     DB_URL = os.environ.get("DB_URL","")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
+    RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/fa890d63b5dc3e1d678ba-718254fdc7548e4e64.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5116530698').split()]
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
 
     # free upload limit 
-    FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
+    FREE_UPLOAD_LIMIT = 5116530698 # calculation 6*1024*1024*1024=results
     
     #vforce subs
     try:
-        FORCE_SUB = int(os.environ.get("FORCE_SUB", "")) 
+        FORCE_SUB = int(os.environ.get("FORCE_SUB", "UNIVERSELANIME")) 
     except:
-        FORCE_SUB = os.environ.get("FORCE_SUB", "Digital_Botz")
+        FORCE_SUB = os.environ.get("FORCE_SUB", "UNIVERSELANIME")
         
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
